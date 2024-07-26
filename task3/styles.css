@@ -1,0 +1,10 @@
+/* Add random words before and after the h1 element */
+h1::before {
+    content: "Before-Text ";
+    color: blue; /* Optional: Add color or other styling */
+}
+
+h1::after {
+    content: " After-Text";
+    color: red; /* Optional: Add color or other styling */
+}
